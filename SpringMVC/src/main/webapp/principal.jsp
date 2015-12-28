@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<!-- El servidor lo primero que va a cargar es esta página, y lo primero que va a intentar hacer es 
+responder la solicitud irHola.html -->
+<jsp:forward page="irHola.html"></jsp:forward>
 </body>
 </html>

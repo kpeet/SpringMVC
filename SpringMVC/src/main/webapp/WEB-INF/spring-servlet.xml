@@ -7,5 +7,14 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd">
 
-
+<!-- Debo implementar algunas configuraciones básicas de spring -->
+<!-- En primer lugar vamos a configurar los beanresort, son calses que van a permitir saber que tipo de vista
+vamos a devolverle al usuario  -->
+<bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+	<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"></property>
+	<!-- Spring necesita saber donde van a aestar las paginas para el usuario -->
+	<property name="prefix" value="/WEB-INF/jsp"></property>
+	<!-- Con la extensión .jsp limite el tipo de vistas enregadas al susuario  -->
+	<property name="suffix" value=".jsp"></property>
+</bean>
 </beans>
