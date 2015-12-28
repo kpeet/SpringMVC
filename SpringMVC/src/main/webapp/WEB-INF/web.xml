@@ -32,6 +32,10 @@ el encargado atender nuestras peticiones por parte del cliente -->
   listarPersonas.html. 
   Si yo quiero atender cualquier tipo de solicitud, debo ponerle / ,sólo
   -->
+  
+  <welcome-file-list>
+  	<welcome-file>principal.jsp</welcome-file>
+  </welcome-file-list>
 	
 
 </web-app>
