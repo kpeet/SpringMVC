@@ -11,7 +11,7 @@ el encargado atender nuestras peticiones por parte del cliente -->
  	
  	<!-- Esto quiere decir que apenas arranque el servidor y una peticion sea enviada
  	el spring va a tener el primer hito de atender la solución-->
- 	<load-on-startup>1</load-on-startup>
+ 	<load-on-startup>1</load-on-startup> 
  </servlet>
  
  <!-- Ahora necesito mapear el tipo de peticion que va a hacer trabajador bajo spring-->
