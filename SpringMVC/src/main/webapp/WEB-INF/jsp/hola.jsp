@@ -7,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-Holanda que talca
- <jsp:forward page="irHola.html"></jsp:forward>
-
+Hola, soy llamado desde un Controller
 </body>
 </html>
